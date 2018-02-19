@@ -5,27 +5,31 @@ Created on Sun Feb  4 17:58:46 2018
 Idade Juniores: 16-19
 Idade Profissionais: 19-33
 
-CUIDADO COM CARACTERES ESPECIAIS...
-
 COMPILAR: python gera_base.py nomeArquivo.txt numeroJogadoresGerados j/OutroCaracter
 
 @author: Douglas Barbino
 """
 
 import numpy as np
+import pandas as pd
 import random
 import sys
 
 #Eh melhor deixar os vetores de nomes e sobrenomes de maneira global do que passa-los como parametro toda vez
 
 #Importa o dado do arquivo, sendo necessario avisar que o tipo eh str
-#data = np.genfromtxt("jap.txt", dtype=str, comments='#', delimiter=' ', usecols=(0,1))
-data = np.genfromtxt(sys.argv[1], dtype=str, comments='#', delimiter=' ', usecols=(0,1))
+#data = pd.read_csv("bra.txt", delimiter=' ', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
+data = pd.read_csv(sys.argv[1], delimiter=' ', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
 #Extrai os nomes e sobrenomes
-name, surname = data[:,[0]], data[:,[1]]
+name, surname = data.as_matrix(["NAMES"]), data.as_matrix(["SURNAMES"])
+#Por conta de paises lusofonos, eh necessario guardar a quantidade de nomes sem sobrenomes que existem
+noSurnames = surname.size - np.count_nonzero(surname)
 #Remove os repetidos
 name = np.unique(name)
 surname = np.unique(surname)
+#Readiciona os sobrenomes em branco
+for i in range(0, noSurnames-1):
+    surname = np.append(surname, [""])
 
 #Função onde os jogadores são gerados
 def createPlayers(playerPosition, ageRange, randomSide):
@@ -39,7 +43,16 @@ def createPlayers(playerPosition, ageRange, randomSide):
                        4: np.array(["Arm/Dri", "Arm/Fin", "Arm/Pas", "Arm/Vel", "Fin/Pas", "Pas/Fin"]),
                        5: np.array(["Cab/Vel", "Dri/Fin", "Fin/Cab", "Fin/Dri", "Fin/Vel", "Vel/Fin"])}
     #Cria o nome do jogador (\t = tab)
-    result = name[random.randint(0, name.size-1)] + " " + surname[random.randint(0, surname.size-1)] + "\t"
+    namePlayer = name[random.randint(0, name.size-1)]
+    surnamePlayer = surname[random.randint(0, surname.size-1)]
+    #Conserta o atleta gerado possui nome esobrenome repetidos
+    while (namePlayer == surnamePlayer):
+        surnamePlayer = surname[random.randint(0, surname.size-1)]
+    #Insere o nome do jogador, tomando cuidado caso ele nao tenha sobrenome
+    if (surnamePlayer != ""):
+        result = namePlayer + " " + surnamePlayer + "\t"
+    else:
+        result = namePlayer + "\t"
     #Insere a posicao do jogador com base no que foi sorteado
     result += positions[playerPosition] + "\t\t"
     #Adiciona a idade baseado no tipo de jogador desejado

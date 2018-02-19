@@ -1,0 +1,323 @@
+﻿NAMES SURNAMES
+#Sel98
+Taffarel
+Carlos Germano
+Dida
+Cafu
+Aldair
+Júnior Baiano
+Roberto Carlos
+Zé Carlos
+Gonçalves
+André Cruz
+Rivaldo
+César Sampaio
+Giovanni
+Dunga
+Emerson
+Zé Roberto
+Doriva
+Leonardo
+Denílson
+Ronaldo
+Bebeto
+Edmundo
+#New98
+Felipe
+Giovane Elber
+Serginho
+Zé Carlos
+#New99
+Evanilson
+Ronaldinho Gaúcho
+Roque Júnior
+Marcos
+Alessandro Cambalhota
+Djair
+#New00
+Adriano
+Edmílson
+Lúcio
+Cléber
+Donizete
+Euller
+#New01
+Juan
+Gilberto Silva
+Luisão
+César
+Geovanni
+Carlos Miguel
+Léomar
+Magno Alves
+Robert
+#New02
+Anderson Polga
+Kléberson
+Kaká
+#New03
+Robinho
+Alex
+Gomes
+Nilmar
+Adriano
+Coelho
+Luís Fabiano
+Maicon
+Diego
+Marcelo Nicácio
+Gabriel
+Thiago Motta
+#New04
+Dedê
+Mancini
+Júlio César
+Ricardo Oliveira
+Elano
+#New05
+Fred
+Grafite
+Cicinho
+Gláuber
+Gabriel
+#New06
+Helton
+Daniel Alves
+Lucas Leiva
+Marcelo
+Fernandinho
+#New07
+Alex Silva
+Doni
+Jô
+Ilsinho
+Josué
+Naldo
+#New08
+Alexandre Pato
+Anderson
+Hernanes
+Thiago Silva
+Thiago Neves
+Richarlyson
+Henrique
+Alex
+Rafinha
+#New09
+Filipe Luís
+Carlos Eduardo
+Ramires
+Miranda
+Sandro
+Felipe Melo
+Diego Souza
+Diego Tardelli
+André Santos
+Hulk
+Michel Bastos
+Fábio Simplício
+Cleiton Xavier
+#New10
+Victor
+David Luiz
+Ederson
+Ganso
+Jucilei
+Neymar
+André
+Philippe Coutinho
+Elias
+Wesley
+Giuliano
+Douglas
+#New11
+Jefferson
+Diego Alves
+Jádson
+Renato Augusto
+Lucas
+Jonas
+Leandro Damião
+Ralf
+Luiz Gustavo
+Danilo
+Oscar
+Paulinho
+Casemiro
+Kléber
+Fábio
+Dudu
+Willian
+Alex Sandro
+Bruno César
+#New12
+Rafael
+Rafael
+Juan Jesus
+Bruno Uvini
+Gabriel
+Carlinhos
+Fábio Santos
+Bernard
+Leandro Castán
+Cristian
+#New13
+Marcos Rocha
+Dante
+Diego Costa
+Leandro
+Maxwell
+Marquinhos
+#New14
+Douglas Costa
+Mário Fernandes
+Ricardo Goulart
+Éverton Ribeiro
+Gil
+Josef
+Roberto Firmino
+Luiz Adriano
+Fred
+#New15
+Fabinho
+Marcelo Grohe
+Felipe Anderson
+Alisson
+Lucas Lima
+Rafinha
+#New16
+Douglas Santos
+Gabriel Barbosa
+Rodrigo Caio
+Walace
+Gabriel Jesus
+Taison
+#New17
+Cássio
+Jemerson
+Ederson
+Fágner
+Luan
+Wéverton
+Pedro Geromel
+Rodriguinho
+Willian Arão
+Gustavo Scarpa
+Camilo
+Jorge
+#Sel58
+Castilho
+Gilmar
+Bellini
+Djalma Santos
+Oreco
+Zózimo
+Nílton Santos
+DeSordi
+Mauro Ramos
+Dino Sani
+Orlando
+Zito
+Mazzola Altafini
+Didi
+Zagallo
+Pelé
+Garrincha
+Moacir
+Joel
+Vavá
+Dida
+Pepe
+#Sel62
+Castilho
+Gilmar
+Djalma Santos
+Mauro Ramos
+Zózimo
+Nílton Santos
+Bellini
+Jurandir
+Altair
+Zito
+Jair Marinho
+Zequinha
+Mengálvio
+Garrincha
+Didi
+Coutinho
+Pelé
+Pepe
+Jair
+Vavá
+Amarildo
+Zagallo
+#Sel70
+Félix
+Ado
+Emerson Leão
+Brito
+Piazza
+Carlos Alberto
+Baldocchi
+Everaldo
+Joel Camargo
+Clodoaldo
+Marco Antônio
+Gerson
+Tostão
+Fontana
+Paulo César
+Edu
+Zé Maria
+Jairzinho
+Pelé
+Rivelino
+Roberto Miranda
+Dadá Maravilha
+#Sel94
+Taffarel
+Zetti
+Gilmar
+Jorginho
+Ricardo Rocha
+Ronaldão
+Branco
+Aldair
+Cafu
+Márcio Santos
+Mauro Silva
+Dunga
+Zinho
+Raí
+Leonardo
+Mazinho
+Paulo Sérgio
+Bebeto
+Romário
+Müller
+Ronaldo
+Viola
+#Sel02
+Marcos
+Dida
+Rogério Ceni
+Cafu
+Lúcio
+Roque Júnior
+Edmílson
+Roberto Carlos
+Belletti
+Anderson Polga
+Júnior
+Ricardinho
+Gilberto Silva
+Rivaldo
+Kléberson
+Denílson
+Vampeta
+Juninho Paulista
+Kaká
+Ronaldo
+Ronaldinho Gaúcho
+Edílson
+Luizão

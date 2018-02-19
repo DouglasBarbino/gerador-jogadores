@@ -3,6 +3,7 @@ Projeto em Python para gerar jogadores do jogo Brasfoot, podendo ser adaptado pa
 
 Bibliotecas utilizadas:
 * Numpy
+* Pandas
 * random
 * sys
 

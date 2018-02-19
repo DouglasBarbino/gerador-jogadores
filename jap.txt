@@ -1,3 +1,4 @@
+﻿NAMES SURNAMES
 #Sel98
 Nobuyuki Kojima
 Yoshikatsu Kawaguchi
@@ -90,7 +91,7 @@ Makoto Hasebe
 Yuzo Kurihara
 Koji Yamase
 Satoru Yamagishi
-Tulio Tanaka
+Túlio Tanaka
 Kengo Nakamura
 Keita Suzuki
 Daigo Kobayashi
