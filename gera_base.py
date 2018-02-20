@@ -12,6 +12,7 @@ COMPILAR: python gera_base.py nomeArquivo.txt numeroJogadoresGerados j/OutroCara
 
 import numpy as np
 import pandas as pd
+import math
 import random
 import sys
 
@@ -22,14 +23,17 @@ import sys
 data = pd.read_csv(sys.argv[1], delimiter=' ', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
 #Extrai os nomes e sobrenomes
 name, surname = data.as_matrix(["NAMES"]), data.as_matrix(["SURNAMES"])
-#Por conta de paises lusofonos, eh necessario guardar a quantidade de nomes sem sobrenomes que existem
-noSurnames = surname.size - np.count_nonzero(surname)
+#Por conta de paises lusofonos, eh necessario guardar a porcentagem arredondada de nomes sem sobrenomes, caso existam
+noSurnames = 1
+if ((surname.size - np.count_nonzero(surname)) != 0):
+    noSurnames = np.count_nonzero(surname) / (surname.size - np.count_nonzero(surname))
 #Remove os repetidos
 name = np.unique(name)
 surname = np.unique(surname)
-#Readiciona os sobrenomes em branco
-for i in range(0, noSurnames-1):
-    surname = np.append(surname, [""])
+#Readiciona os sobrenomes em branco, mantendo a porcentagem anterior
+if (noSurnames != 1):
+    for i in range(0, math.floor(np.count_nonzero(surname) / noSurnames)-1):
+        surname = np.append(surname, [""])
 
 #Função onde os jogadores são gerados
 def createPlayers(playerPosition, ageRange, randomSide):
