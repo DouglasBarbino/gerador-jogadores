@@ -19,8 +19,8 @@ import sys
 #Eh melhor deixar os vetores de nomes e sobrenomes de maneira global do que passa-los como parametro toda vez
 
 #Importa o dado do arquivo, sendo necessario avisar que o tipo eh str
-#data = pd.read_csv("bra.txt", delimiter=' ', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
-data = pd.read_csv(sys.argv[1], delimiter=' ', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
+#data = pd.read_csv("bra.txt", delimiter='*', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
+data = pd.read_csv(sys.argv[1], delimiter='*', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
 #Extrai os nomes e sobrenomes
 name, surname = data.as_matrix(["NAMES"]), data.as_matrix(["SURNAMES"])
 #Por conta de paises lusofonos, eh necessario guardar a porcentagem arredondada de nomes sem sobrenomes, caso existam
@@ -32,7 +32,7 @@ name = np.unique(name)
 surname = np.unique(surname)
 #Readiciona os sobrenomes em branco, mantendo a porcentagem anterior
 if (noSurnames != 1):
-    for i in range(0, math.floor(np.count_nonzero(surname) / noSurnames)-1):
+    for i in range(0, math.floor(np.count_nonzero(surname) // noSurnames)-1):
         surname = np.append(surname, [""])
 
 #Função onde os jogadores são gerados

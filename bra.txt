@@ -1,21 +1,21 @@
-﻿NAMES SURNAMES
+﻿NAMES*SURNAMES
 #Sel98
 Taffarel
-Carlos Germano
+Carlos*Germano
 Dida
 Cafu
 Aldair
-Júnior Baiano
-Roberto Carlos
-Zé Carlos
+Júnior*Baiano
+Roberto*Carlos
+Zé*Carlos
 Gonçalves
-André Cruz
+André*Cruz
 Rivaldo
-César Sampaio
+César*Sampaio
 Giovanni
 Dunga
 Emerson
-Zé Roberto
+Zé*Roberto
 Doriva
 Leonardo
 Denílson
@@ -24,15 +24,15 @@ Bebeto
 Edmundo
 #New98
 Felipe
-Giovane Elber
+Giovane*Elber
 Serginho
-Zé Carlos
+Zé*Carlos
 #New99
 Evanilson
-Ronaldinho Gaúcho
-Roque Júnior
+Ronaldinho*Gaúcho
+Roque*Júnior
 Marcos
-Alessandro Cambalhota
+Alessandro*Cambalhota
 Djair
 #New00
 Adriano
@@ -43,16 +43,16 @@ Donizete
 Euller
 #New01
 Juan
-Gilberto Silva
+Gilberto*Silva
 Luisão
 César
 Geovanni
-Carlos Miguel
+Carlos*Miguel
 Léomar
-Magno Alves
+Magno*Alves
 Robert
 #New02
-Anderson Polga
+Anderson*Polga
 Kléberson
 Kaká
 #New03
@@ -62,17 +62,17 @@ Gomes
 Nilmar
 Adriano
 Coelho
-Luís Fabiano
+Luís*Fabiano
 Maicon
 Diego
-Marcelo Nicácio
+Marcelo*Nicácio
 Gabriel
-Thiago Motta
+Thiago*Motta
 #New04
 Dedê
 Mancini
-Júlio César
-Ricardo Oliveira
+Júlio*César
+Ricardo*Oliveira
 Elano
 #New05
 Fred
@@ -82,64 +82,64 @@ Gláuber
 Gabriel
 #New06
 Helton
-Daniel Alves
-Lucas Leiva
+Daniel*Alves
+Lucas*Leiva
 Marcelo
 Fernandinho
 #New07
-Alex Silva
+Alex*Silva
 Doni
 Jô
 Ilsinho
 Josué
 Naldo
 #New08
-Alexandre Pato
+Alexandre*Pato
 Anderson
 Hernanes
-Thiago Silva
-Thiago Neves
+Thiago*Silva
+Thiago*Neves
 Richarlyson
 Henrique
 Alex
 Rafinha
 #New09
-Filipe Luís
-Carlos Eduardo
+Filipe*Luís
+Carlos*Eduardo
 Ramires
 Miranda
 Sandro
-Felipe Melo
-Diego Souza
-Diego Tardelli
-André Santos
+Felipe*Melo
+Diego*Souza
+Diego*Tardelli
+André*Santos
 Hulk
-Michel Bastos
-Fábio Simplício
-Cleiton Xavier
+Michel*Bastos
+Fábio*Simplício
+Cleiton*Xavier
 #New10
 Victor
-David Luiz
+David*Luiz
 Ederson
 Ganso
 Jucilei
 Neymar
 André
-Philippe Coutinho
+Philippe*Coutinho
 Elias
 Wesley
 Giuliano
 Douglas
 #New11
 Jefferson
-Diego Alves
+Diego*Alves
 Jádson
-Renato Augusto
+Renato*Augusto
 Lucas
 Jonas
-Leandro Damião
+Leandro*Damião
 Ralf
-Luiz Gustavo
+Luiz*Gustavo
 Danilo
 Oscar
 Paulinho
@@ -148,49 +148,49 @@ Kléber
 Fábio
 Dudu
 Willian
-Alex Sandro
-Bruno César
+Alex*Sandro
+Bruno*César
 #New12
 Rafael
 Rafael
-Juan Jesus
-Bruno Uvini
+Juan*Jesus
+Bruno*Uvini
 Gabriel
 Carlinhos
-Fábio Santos
+Fábio*Santos
 Bernard
-Leandro Castán
+Leandro*Castán
 Cristian
 #New13
-Marcos Rocha
+Marcos*Rocha
 Dante
-Diego Costa
+Diego*Costa
 Leandro
 Maxwell
 Marquinhos
 #New14
-Douglas Costa
-Mário Fernandes
-Ricardo Goulart
-Éverton Ribeiro
+Douglas*Costa
+Mário*Fernandes
+Ricardo*Goulart
+Éverton*Ribeiro
 Gil
 Josef
-Roberto Firmino
-Luiz Adriano
+Roberto*Firmino
+Luiz*Adriano
 Fred
 #New15
 Fabinho
-Marcelo Grohe
-Felipe Anderson
+Marcelo*Grohe
+Felipe*Anderson
 Alisson
-Lucas Lima
+Lucas*Lima
 Rafinha
 #New16
-Douglas Santos
-Gabriel Barbosa
-Rodrigo Caio
+Douglas*Santos
+Gabriel*Barbosa
+Rodrigo*Caio
 Walace
-Gabriel Jesus
+Gabriel*Jesus
 Taison
 #New17
 Cássio
@@ -199,26 +199,26 @@ Ederson
 Fágner
 Luan
 Wéverton
-Pedro Geromel
+Pedro*Geromel
 Rodriguinho
-Willian Arão
-Gustavo Scarpa
+Willian*Arão
+Gustavo*Scarpa
 Camilo
 Jorge
 #Sel58
 Castilho
 Gilmar
 Bellini
-Djalma Santos
+Djalma*Santos
 Oreco
 Zózimo
-Nílton Santos
-DeSordi
-Mauro Ramos
-Dino Sani
+Nílton*Santos
+De Sordi
+Mauro*Ramos
+Dino*Sani
 Orlando
 Zito
-Mazzola Altafini
+Mazzola*Altafini
 Didi
 Zagallo
 Pelé
@@ -231,15 +231,15 @@ Pepe
 #Sel62
 Castilho
 Gilmar
-Djalma Santos
-Mauro Ramos
+Djalma*Santos
+Mauro*Ramos
 Zózimo
-Nílton Santos
+Nílton*Santos
 Bellini
 Jurandir
 Altair
 Zito
-Jair Marinho
+Jair*Marinho
 Zequinha
 Mengálvio
 Garrincha
@@ -254,44 +254,44 @@ Zagallo
 #Sel70
 Félix
 Ado
-Emerson Leão
+Emerson*Leão
 Brito
 Piazza
-Carlos Alberto
+Carlos*Alberto
 Baldocchi
 Everaldo
-Joel Camargo
+Joel*Camargo
 Clodoaldo
-Marco Antônio
+Marco*Antônio
 Gerson
 Tostão
 Fontana
-Paulo César
+Paulo*César
 Edu
-Zé Maria
+Zé*Maria
 Jairzinho
 Pelé
 Rivelino
-Roberto Miranda
-Dadá Maravilha
+Roberto*Miranda
+Dadá*Maravilha
 #Sel94
 Taffarel
 Zetti
 Gilmar
 Jorginho
-Ricardo Rocha
+Ricardo*Rocha
 Ronaldão
 Branco
 Aldair
 Cafu
-Márcio Santos
-Mauro Silva
+Márcio*Santos
+Mauro*Silva
 Dunga
 Zinho
 Raí
 Leonardo
 Mazinho
-Paulo Sérgio
+Paulo*Sérgio
 Bebeto
 Romário
 Müller
@@ -300,24 +300,24 @@ Viola
 #Sel02
 Marcos
 Dida
-Rogério Ceni
+Rogério*Ceni
 Cafu
 Lúcio
-Roque Júnior
+Roque*Júnior
 Edmílson
-Roberto Carlos
+Roberto*Carlos
 Belletti
-Anderson Polga
+Anderson*Polga
 Júnior
 Ricardinho
-Gilberto Silva
+Gilberto*Silva
 Rivaldo
 Kléberson
 Denílson
 Vampeta
-Juninho Paulista
+Juninho*Paulista
 Kaká
 Ronaldo
-Ronaldinho Gaúcho
+Ronaldinho*Gaúcho
 Edílson
 Luizão
