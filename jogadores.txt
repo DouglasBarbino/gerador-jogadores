@@ -1,23 +1,11 @@
-Isco Celades	gk		19	Ref/SGo	d
-Iago Tristán	la		19	Fin/Pas	d
-Iñaki Etxebarria	la		19	Mar/Fin	e
-Jonathan Fernández	za		16	Cab/Res	d
-Kiko	za		17	Cab/Res	e
-Javi Soriano	vo		18	Des/Pas	e
-Tiko	ma		17	Arm/Dri	d
-Javi Tello	ma		19	Arm/Dri	e
-Luis Ñíguez	ma		17	Pas/Fin	d
-Mario Contreras	at		19	Vel/Fin	d
-Roberto Alkorta	at		19	Cab/Vel	e
-Xabier Vázquez	gk		17	Col/DPe	d
-Cristian Ñíguez	za		18	Mar/Vel	d
-Bruno Etxebarria	za		18	Des/Cab	e
-Raúl Contreras	za		17	Cab/Res	d
-Juan	vo		19	Mar/Pas	d
-Daniel Albiol	vo		16	Mar/Fin	e
-Mario Capel	ma		19	Pas/Fin	d
-Capi Güiza	ma		17	Arm/Dri	e
-José Valdés	at		16	Cab/Vel	d
-Joaquín Moreno	at		17	Cab/Vel	e
-Óscar Luque	at		17	Cab/Vel	d
-Sergio San José	za		18	Mar/Vel	e
+Terry Jones	gk		16	Col/SGo	e
+Jay Pickford	la		16	Mar/Fin	d
+Andy Adams	la		16	Cru/Vel	e
+Teddy Foden	za		18	Des/Mar	d
+Rob McCann	za		19	Mar/Vel	e
+Jake Bridge	vo		19	Des/Fin	d
+Kyle Seaman	ma		18	Arm/Vel	d
+Gordon Shawcross	ma		19	Arm/Dri	e
+Raheem Welbeck	at		18	Vel/Fin	d
+Jesse Upson	at		16	Dri/Fin	e
+Leighton Trippier	at		19	Fin/Cab	e

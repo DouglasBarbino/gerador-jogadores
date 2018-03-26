@@ -5,7 +5,7 @@ Created on Sun Feb  4 17:58:46 2018
 Idade Juniores: 16-19
 Idade Profissionais: 19-33
 
-COMPILAR: python gera_base.py nomeArquivo.txt numeroJogadoresGerados j/OutroCaracter
+COMPILAR: python gera_base.py nomeArquivo.txt numeroJogadoresGerados name/j/OutroCaracter
 
 @author: Douglas Barbino
 """
@@ -35,6 +35,22 @@ if (noSurnames != 1):
     for i in range(0, math.floor(np.count_nonzero(surname) // noSurnames)-1):
         surname = np.append(surname, [""])
 
+#Função onde o nome dos jogadores são gerados. 
+#Separado da função createPlayers para o caso do usuário querer apenas os nomes
+def createNamePlayers():
+    #Cria o nome do jogador
+    namePlayer = name[random.randint(0, name.size-1)]
+    surnamePlayer = surname[random.randint(0, surname.size-1)]
+    #Conserta o atleta gerado possui nome esobrenome repetidos
+    while (namePlayer == surnamePlayer):
+        surnamePlayer = surname[random.randint(0, surname.size-1)]
+    #Insere o nome do jogador, tomando cuidado caso ele nao tenha sobrenome (\t = tab)
+    if (surnamePlayer != ""):
+        return (namePlayer + " " + surnamePlayer)
+    else:
+        return (namePlayer)
+    
+
 #Função onde os jogadores são gerados
 def createPlayers(playerPosition, ageRange, randomSide):
     #Lista das posicoes
@@ -46,17 +62,8 @@ def createPlayers(playerPosition, ageRange, randomSide):
                        3: np.array(["Des/Cab", "Des/Fin", "Des/Mar", "Des/Pas", "Des/Vel", "Mar/Fin", "Mar/Pas", "Mar/Vel"]),
                        4: np.array(["Arm/Dri", "Arm/Fin", "Arm/Pas", "Arm/Vel", "Fin/Pas", "Pas/Fin"]),
                        5: np.array(["Cab/Vel", "Dri/Fin", "Fin/Cab", "Fin/Dri", "Fin/Vel", "Vel/Fin"])}
-    #Cria o nome do jogador (\t = tab)
-    namePlayer = name[random.randint(0, name.size-1)]
-    surnamePlayer = surname[random.randint(0, surname.size-1)]
-    #Conserta o atleta gerado possui nome esobrenome repetidos
-    while (namePlayer == surnamePlayer):
-        surnamePlayer = surname[random.randint(0, surname.size-1)]
-    #Insere o nome do jogador, tomando cuidado caso ele nao tenha sobrenome
-    if (surnamePlayer != ""):
-        result = namePlayer + " " + surnamePlayer + "\t"
-    else:
-        result = namePlayer + "\t"
+    #Adiciona o nome do jogador gerado na função createNamePLayers
+    result = createNamePlayers() + "\t"
     #Insere a posicao do jogador com base no que foi sorteado
     result += positions[playerPosition] + "\t\t"
     #Adiciona a idade baseado no tipo de jogador desejado
@@ -158,27 +165,33 @@ def createSinglePlayerPosition(repetition, arrayPositions):
 filePlayers = ""
 #Armazena o numero de jogadores desejados conforme parametro passado pelo usuario
 numberPlayers = int(sys.argv[2])
-#Executa a funcao de criar times quantas vezes for possivel por meio da divisao inteira
-for numberTeams in range (0, (numberPlayers // 11)):
-    filePlayers += createFormation()
-#Com todos os times possiveis ja feitos, numberPlayers fica com o resto do valor original dividido por 11, representando quantos jogadores ainda precisam ser criados
-numberPlayers = numberPlayers % 11
-#Caso numberPlayers seja maior que 6, eh necessario aplicar o processo de criar mais de um jogador em uma posicao
-if (numberPlayers > 6):
-    #Variavel auxiliar para receber os jogadores
-    newPlayers = ""
-    #Executa essa funcao numberPlayers-6 vezes
-    newPlayers, arrayPositions = createDoublePlayersPosition(numberPlayers-6)
-    #Insere os jogadores criados na lista
-    filePlayers += newPlayers
-    #Cria os jogadores que ainda estao faltando
-    filePlayers += createSinglePlayerPosition(arrayPositions.size, arrayPositions)
-#Como na alcancava 6 jogadores, cria o numero que existe mesmo
+#Verifica se o usuário deseja criar jogadores completos ou apenas os nomes deles
+if (sys.argv[3] != "name"):
+    #Executa a funcao de criar times quantas vezes for possivel por meio da divisao inteira
+    for numberTeams in range (0, (numberPlayers // 11)):
+        filePlayers += createFormation()
+    #Com todos os times possiveis ja feitos, numberPlayers fica com o resto do valor original dividido por 11, representando quantos jogadores ainda precisam ser criados
+    numberPlayers = numberPlayers % 11
+    #Caso numberPlayers seja maior que 6, eh necessario aplicar o processo de criar mais de um jogador em uma posicao
+    if (numberPlayers > 6):
+        #Variavel auxiliar para receber os jogadores
+        newPlayers = ""
+        #Executa essa funcao numberPlayers-6 vezes
+        newPlayers, arrayPositions = createDoublePlayersPosition(numberPlayers-6)
+        #Insere os jogadores criados na lista
+        filePlayers += newPlayers
+        #Cria os jogadores que ainda estao faltando
+        filePlayers += createSinglePlayerPosition(arrayPositions.size, arrayPositions)
+    #Como na alcancava 6 jogadores, cria o numero que existe mesmo
+    else:
+        #Vetor que sera utilizado para sortear quais positions ganharao mais jogadores
+        arrayPositions = np.arange(0, 6)
+        #Cria os jogadores que ainda estao faltando
+        filePlayers += createSinglePlayerPosition(numberPlayers, arrayPositions)
 else:
-    #Vetor que sera utilizado para sortear quais positions ganharao mais jogadores
-    arrayPositions = np.arange(0, 6)
-    #Cria os jogadores que ainda estao faltando
-    filePlayers += createSinglePlayerPosition(numberPlayers, arrayPositions)
+    #Loop para criar o número de nomes pedidos
+    for i in range(0, numberPlayers):
+        filePlayers += createNamePlayers() + "\n"
         
 #Escreve os jogadores criados em um arquivo txt, ja em um formato pronto para exportar ao Excel
 with open('jogadores.txt', 'w') as f:

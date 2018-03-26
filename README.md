@@ -14,6 +14,6 @@ python gera_base.py nomeArquivo.txt numeroJogadoresGerados j/OutroCaracter
 Sendo esses os parâmetros:
 * nomeArquivo.txt - Arquivo onde estão os nomes que serão utilizados para coletas os nomes e sobrenomes. Ex: jap.txt
 * numeroJogadoresGerados - Digite o número de jogadores que deseja gerar. Ex: 11
-* j/OutroCaracter - Digite j para que o atleta seja criado idade de um atleta das categorias de base (entre 16 e 19 anos) ou qualquer outra letra para que ele venha com uma idade de jogador profissional (entre 19 e 33 anos)
+* name/j/OutroCaracter - Digite **name** para que sejam gerados apenas os nomes dos jogadores, **j** para que o atleta seja criado com idade de um atleta das categorias de base (entre 16 e 19 anos) ou qualquer outra letra para que ele venha com uma idade de jogador profissional (entre 19 e 33 anos)
 
 Muito obrigado por observarem meu código!
