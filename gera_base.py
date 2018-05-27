@@ -12,7 +12,6 @@ COMPILAR: python gera_base.py nomeArquivo.txt numeroJogadoresGerados name/j/Outr
 
 import numpy as np
 import pandas as pd
-import math
 import random
 import sys
 
@@ -21,24 +20,24 @@ import sys
 #Importa o dado do arquivo, sendo necessario avisar que o tipo eh str
 #data = pd.read_csv("bra.txt", delimiter='*', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
 data = pd.read_csv(sys.argv[1], delimiter='*', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
+#Converte os dados para um vetor numpy de tipo string
+data = (data.values).astype(str)
+#Apenas para curiosidade, divide por 2 por conta dos jogadores possuirem nome e sobrenome
+print("Quantidade de jogadores antes de remover os repetidos: " + str(data.size // 2))
+#Remove os nomes completos repetidos
+data = np.unique(data, axis=0)
+#Apenas para curiosidade, divide por 2 por conta dos jogadores possuirem nome e sobrenome
+print("Quantidade de jogadores depois de remover os repetidos: " + str(data.size // 2))
 #Extrai os nomes e sobrenomes
-name, surname = data.as_matrix(["NAMES"]), data.as_matrix(["SURNAMES"])
-#Por conta de paises lusofonos, eh necessario guardar a porcentagem arredondada de nomes sem sobrenomes, caso existam
-noSurnames = 1
-if ((surname.size - np.count_nonzero(surname)) != 0):
-    noSurnames = np.count_nonzero(surname) / (surname.size - np.count_nonzero(surname))
-#Remove os repetidos
-name = np.unique(name)
-surname = np.unique(surname)
-#Readiciona os sobrenomes em branco, mantendo a porcentagem anterior
-if (noSurnames != 1):
-    for i in range(0, math.floor(np.count_nonzero(surname) // noSurnames)-1):
-        surname = np.append(surname, [""])
+name, surname = np.split(data, 2, axis=1)
+#Como o np.split retorna uma matriz [N, 1], usa-se a funcao np.flatten para transformar em um vetor
+name = name.flatten()
+surname = surname.flatten()
 
-#Função onde o nome dos jogadores são gerados. 
+#Funcao onde o nome dos jogadores são gerados. 
 #Separado da função createPlayers para o caso do usuário querer apenas os nomes
 def createNamePlayers():
-    #Cria o nome do jogador
+    #Cria o nome do jogador (Necessario o [0], pois o np.split )
     namePlayer = name[random.randint(0, name.size-1)]
     surnamePlayer = surname[random.randint(0, surname.size-1)]
     #Conserta o atleta gerado possui nome esobrenome repetidos
@@ -51,7 +50,7 @@ def createNamePlayers():
         return (namePlayer)
     
 
-#Função onde os jogadores são gerados
+#Funcao onde os jogadores são gerados
 def createPlayers(playerPosition, ageRange, randomSide):
     #Lista das posicoes
     positions = {0: "gk", 1: "la", 2: "za", 3: "vo", 4: "ma", 5: "at"}
