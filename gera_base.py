@@ -22,11 +22,11 @@ import sys
 data = pd.read_csv(sys.argv[1], delimiter='*', index_col=False, dtype=str, na_values=' ', keep_default_na=False, comment='#')
 #Converte os dados para um vetor numpy de tipo string
 data = (data.values).astype(str)
-#Apenas para curiosidade, divide por 2 por conta dos jogadores possuirem nome e sobrenome
+#Informacao do numero antigo de jogadores apenas a titulo de curiosidade, dividindo por 2 por conta dos jogadores possuirem nome e sobrenome
 print("Quantidade de jogadores antes de remover os repetidos: " + str(data.size // 2))
 #Remove os nomes completos repetidos
 data = np.unique(data, axis=0)
-#Apenas para curiosidade, divide por 2 por conta dos jogadores possuirem nome e sobrenome
+#Informacao do numero correto de jogadores apenas a titulo de curiosidade, dividindo por 2 por conta dos jogadores possuirem nome e sobrenome
 print("Quantidade de jogadores depois de remover os repetidos: " + str(data.size // 2))
 #Extrai os nomes e sobrenomes
 name, surname = np.split(data, 2, axis=1)
@@ -37,7 +37,7 @@ surname = surname.flatten()
 #Funcao onde o nome dos jogadores são gerados. 
 #Separado da função createPlayers para o caso do usuário querer apenas os nomes
 def createNamePlayers():
-    #Cria o nome do jogador (Necessario o [0], pois o np.split )
+    #Cria o nome do jogador
     namePlayer = name[random.randint(0, name.size-1)]
     surnamePlayer = surname[random.randint(0, surname.size-1)]
     #Conserta o atleta gerado possui nome esobrenome repetidos
@@ -181,7 +181,7 @@ if (sys.argv[3] != "name"):
         filePlayers += newPlayers
         #Cria os jogadores que ainda estao faltando
         filePlayers += createSinglePlayerPosition(arrayPositions.size, arrayPositions)
-    #Como na alcancava 6 jogadores, cria o numero que existe mesmo
+    #Como nao alcanca 6 jogadores, cria o numero que existe mesmo
     else:
         #Vetor que sera utilizado para sortear quais positions ganharao mais jogadores
         arrayPositions = np.arange(0, 6)
