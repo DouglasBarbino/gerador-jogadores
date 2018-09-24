@@ -2,6 +2,8 @@
 """
 Created on Sun Feb  4 17:58:46 2018
 
+Código criado para gerar jogadores, seja no formato utilizado no jogo Brasfoot ou apenas o nome dos atletas
+
 Idade Juniores: 16-19
 Idade Profissionais: 19-33
 
