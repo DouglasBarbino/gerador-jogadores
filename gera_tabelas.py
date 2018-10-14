@@ -4,7 +4,7 @@ Created on Sun Sep 23 19:00:50 2018
 
 Código criado para gerar tabelas de campeonatos
 
-COMPILAR: python gera_base.py nomeArquivo.txt numeroTurnos  y/a/outroValor tipoTabela
+COMPILAR: python gera_tabelas.py nomeArquivo.txt numeroTurnos  y/a/outroValor tipoTabela
 
 @author: Douglas Barbino
 """
