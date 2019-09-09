@@ -1,0 +1,44 @@
+﻿NAMES*SURNAMES
+#IRAQ
+#FIFA
+Ali*Hassaam
+Said*Malafir
+Mahmed*Ali
+Jibir*Kamir
+Radi*Isaad
+Rashad*Haraab
+Ahmed*Abdulah
+Hassad*Khalifaar
+Khalaf*Sahib
+Laith*Samaar
+Jabar*Reti Malif
+Mahdi*Omaar
+Sadi*Abhoud
+Ala*Hamir Hassan
+Kadar*Muhbeed
+Ahmad*Jelaar
+Ahmed*Ali Ahmadi
+Ali*Ala Amaad
+Namar*Shabar
+Jahid*Babeer
+#ISSS_JAP(n64+orig)
+Emad*Harchem
+Ahmed*Barzim
+Jalil*Tabar
+Abdul*Mormedo
+Samir*Arras
+Walid*Badum
+Radhi*Jhadem
+Mohamed*Fakshi
+Mahmoud*Kadhim
+Haidar*Russain
+Esam*Jabbar
+Mahdi*Adam
+Khalid*Farhan
+Wahaib*Richeal
+Sahib*Taizer
+Adil*Khalim
+Laith*Rupsim
+Hassan*Tanagota
+Qahtan*Sanrumi
+Hussam*Mornetta

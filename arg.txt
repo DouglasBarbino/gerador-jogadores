@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Javier*Guisande
+Leandro*Planas
+Martin*Enriquez
+Diego*Giustozzi
+Carlos*Sanchez
+Gustavo*Barbona
+Fernando*Wilhelm
+Hernan*Garcias
+Rodrigo*Petillo
+Marcelo*Gimenez
+Esteban*Gonzalez
+Fernando*Poggi
+Pablo*Ranieri
+Cristian*Bresciani

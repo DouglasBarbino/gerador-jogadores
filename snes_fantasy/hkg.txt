@@ -1,0 +1,23 @@
+﻿NAMES*SURNAMES
+#HONG_KONG
+#FIFA
+Chen*Li Wong
+Bing*Zien Fung
+Xiao*Zhou Song
+Yang*Ten Lam
+Bin*Dang Wang
+Zong*Ping Tse
+Xian*Ling Chen
+Ciao*Zien Mah
+Eng*Zong Fang
+Lang*Jin Lou
+Min*Li Chan
+Lang*Pung Kwok
+Hong*Bin Lee
+Gwong*Zau Leung
+Zau*Tie Leung
+Bing*Ten Eng
+Bau*Zong Tse
+Zien*Yang Pung
+Xiao*Xian Wong
+Hi*Gong Sito

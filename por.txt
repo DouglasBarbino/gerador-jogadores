@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+João*Benedito
+Luis*Silva
+Léo
+Marcelinho
+Ivan
+Joel*Queiros
+André
+Majo
+Gonçalo
+Rogério*Santos
+Israel
+Sandro
+Zezito
+Sílvio

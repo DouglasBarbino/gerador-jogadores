@@ -1,0 +1,44 @@
+﻿NAMES*SURNAMES
+#MOROCCO
+#FIFA
+Tahar*El Fahid
+Youssef*El Amiir
+Hassan*Faraouk
+Mustapha*Habeet
+Mohamir*Amabour
+Nheret*Habidabi
+Mohammed*Taraki
+Mohamed*Abramhoud
+Taraki*Hadouri
+Khalil*Ibrahiim
+Muhamar*Nasser
+Rachid*Nadouar
+Sahid*El Samaar
+Armad*Samovar
+Hassan*Aziz
+Tahar*Fihranni
+Fahid*Tahar
+Fideo*Hambrimar
+Amrak*Brakhoud
+Tijani*Marouk
+#ISSSD(snes+orig)
+Khalil*Moulay
+Said*Slimani
+Zakaria*Lamrani
+Nacer*Kassou
+Abdelkrim*Feras
+Tahar*Arafa
+Smahi*Raschid
+Noureddine*Rbia
+Ahmed*El Azhar
+Rachid*Maaroufi
+Mustapha*Bamous
+Rachid*Mouhoub
+Mustafa*Kamil
+El-Arbi*Fuad
+Hassan*Rabia
+Mohammed*Feda
+Ahmed*Fargani
+Hassan*Baitar
+Abdelsalam*Paret
+Abdel*Desalgin

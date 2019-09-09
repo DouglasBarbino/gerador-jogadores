@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Gavin*O'Brien
+Elliot*Zwangobani
+Brett*Hewitt
+Scott*Manson
+Simon*Keith
+Damian*Pilat
+Paolo*Lombardo
+Andrew*Nolan
+Danny*Ngalufe
+Ben*Singleton
+Lachlan*Wright
+Peter*Spathis
+Luke*Haydon
+Adrian*Vizzari

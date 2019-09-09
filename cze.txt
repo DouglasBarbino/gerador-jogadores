@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Petr*Krayzel
+Vit*Blazej
+Daniel*Rajnoch
+David*Levcik
+Tomas*Sluka
+Jiri*Kaspar
+Martin*Dlouhy
+Petr*Hoffmann
+Josef*Havel
+Roman*Musial
+Michal*Mares
+Jan*Klima
+Zdenek*Slama
+Jaroslav*Kamenicky

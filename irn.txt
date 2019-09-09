@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Reza*Nasseri
+Mahmoud*Lotfi
+Mohammad*Keshavarz
+Amir*Hanifi
+Mohammad*Hashemzadeh
+Siamak*Dadashi
+Babak*Masoumi
+Kazem*Mohammadi
+Vahid*Shamsaee
+Mohammad Reza*Heidarian
+Maged*Raise
+Hamidreza*Abrarinia
+Kazem*Sadeghi
+Farhad*Fakhim

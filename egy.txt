@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Ayman*Nassef
+Mohamed*Sayed
+Islam*El Darwj
+Ibrahim*Ekramy
+Yousef*El Gohary
+Wael*Abdel Mawla
+Mohamed*Abdelhamid
+Samir*Seif
+Ayman*Ibrahim
+Abdel Hakim*Mohamed
+Gehad*Sayed
+Samir Sabry*Abdou
+Amr*El Malah
+Khaled*Mahmoud

@@ -1,0 +1,44 @@
+﻿NAMES*SURNAMES
+#SAUDI_ARABIA
+#FIFA
+Ahmed*Ahmad
+Saeed*Daljawi
+Khalil*Amir
+Mohammed*Jabar
+Amar*Al Zawi
+Farouk*Mahali
+Mansour*Adani
+Mouhmar*Khalif
+Abduhl*Fahad
+Fahlil*Madawi
+Abu*Samaar
+Abduhl*Kareem
+Fuad*Al Raza
+Fahid*Dalwalli
+Ahmed*Amaldani
+Said*Moammar
+Mohammed*Jabir
+Omar*Damadi
+Ali*Hamaz
+Abdullah*Khali
+#ISSSD_JAP(n64+orig)
+Mohammed*Debai
+Hussain*Suamani
+Mohammed*Habawie
+Saleh*Zebelbau
+Ramzi*Kyahani
+Abdullah*Harshi
+Ahmed*Al Gowar
+Fuad*Al Dubi
+Saleh*Shiaan
+Said*Al Gozari
+Ahmed*Kido
+Turki*Sachef
+Khalid*Abdobar
+Hussain*Obayan
+Salem*Tunayan
+Hamzah*Bososhin
+Fahad*Suwafat
+Sami*Suwareed
+Fahad*Iyarba
+Obeid*Shobabe

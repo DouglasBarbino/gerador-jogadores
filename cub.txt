@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Wilfredo*Carbo
+Amauri*Morales
+Isven*Roman
+Yulier*Olivera
+Eduardo*Morales
+Pillin*Guerra
+Yampier*Rodriguez
+Yosniel*Mesa
+Fernando*Chapman
+Papi*Portal
+Boris*Saname
+Francis*Lopez
+Carlos*Madrigal
+Dagmar*Gomez

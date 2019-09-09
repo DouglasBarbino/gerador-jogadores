@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Cristhian*Acuña
+Emmanuel*Ayala
+Fabio*Alcaraz
+Gabriel*Ayala
+Carlos*Chilavert
+Hebert*Gimenez
+Oscar*Velazquez
+Sergio*Araujo
+Carlos Alberto*Villalba
+Walter*Villalba
+José*Rotella
+Marcos*Miranda
+Alberto*Benitez
+Rene*Villalba

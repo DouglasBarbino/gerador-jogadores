@@ -1,0 +1,44 @@
+﻿NAMES*SURNAMES
+#NETHERLANDS
+#FIFA
+Marco*Vincic
+Peter*Rolands
+Jake*Deitrich
+Jan*Van Bueren
+Robert*Vanun
+Henri*Guilmeer
+Mathias*Wick
+Richard*Mul
+John*Vilandre
+Hans*Van Smeiter
+Arnold*Deboer
+Johannes*Weiters
+Heiner*Waltraut
+Jan*Kinder
+Frank*De Veer
+Ruud*Vandermelt
+Daniel*De Beers
+Ernest*Reichstaat
+Daniel*Winter
+Jacob*Weiner
+#ISSSD
+Edwin*Groen
+Ed*De Jong
+Michael*Kadijk
+Danny*Schurger
+Jaap*Heijnen
+Arthur*De Grood
+Winston*Van Wijk
+Johan*Visscher
+Clarence*De Rijk
+Ronald*Koppers
+Edgar*Bergsen
+Peter*Jergen
+Aron*De Veer
+Richard*Nuyens
+Phillip*Waatijk
+Gaston*Van Gent
+Patrick*Peterse
+Jordi*Bakker
+Youri*Swaart
+Dennis*Groen

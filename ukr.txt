@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Olexiy*Popov
+Sergiy*Sytin
+Vitaliy*Nesteruk
+Sergiy*Koridze
+Oleg*Shaytanov
+Ramis*Mansurov
+Georgii*Melnikov
+Olexandr*Kosenko
+Vitaliy*Brunko
+Igor*Moskvychov
+Fedir*Pylypiv
+Vasyl*Sukhomlinov
+Artem*Kovalyov
+Kostyantyn*Vlasenko

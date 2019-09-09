@@ -1,0 +1,16 @@
+﻿NAMES*SURNAMES
+#Futsal04
+Gianfranco*Angelini
+Fernando*Grana
+Vasconcelos*Pellegrini
+Carlos*Montovaneli
+Salvatore*Zaffiro
+Edgar*Bertoni
+Vinicius*Bacaro
+Andre*Vicentini
+Fabiano*Assad
+Adriano*Foglia
+Dudu*Morgado
+Alexandre*Feller
+Sandro*Zanetti
+Rodrigo*Bertoni

@@ -1,22 +1,100 @@
-Takayuki Ikeda	gk		32	Col/SGo	e
-Kichi Ito	la		26	Mar/Fin	d
-Hisashi Endo	la		23	Cru/Vel	e
-Genta Kuwahara	za		24	Mar/Vel	d
-Koki Nakamura	za		31	Des/Cab	e
-Ryu Makino	vo		23	Mar/Fin	d
-Yusuke Sato	vo		26	Mar/Vel	e
-Eisuke Kamata	ma		32	Arm/Vel	d
-Toshiki Sekiguchi	ma		33	Arm/Dri	e
-Yutaka Hamazaki	at		20	Fin/Vel	d
-Ryota Koroki	at		29	Cab/Vel	e
-Naoya Ito	gk		33	SGo/DPe	d
-Tomoaki Takakuwa	za		22	Des/Cab	d
-Tatsuhiko Makino	za		19	Des/Mar	e
-Koji Takagiwa	za		30	Des/Cab	e
-Kazuya Ishii	vo		19	Des/Fin	d
-Taijiro Kondo	vo		28	Des/Pas	e
-Takashi Minowa	ma		23	Fin/Pas	d
-Hidetoshi Gonda	ma		23	Arm/Dri	e
-Takuma Masuda	ma		31	Arm/Vel	e
-Teruki Omura	at		28	Fin/Dri	d
-Ryota Motoyama	at		23	Cab/Vel	e
+Shiro Shimokawa
+Hiroki Iino
+Hiroshi Shiotani
+Ryutaro Sasaki
+Takaya Kawaguchi
+Toshio Morishige
+Takashi Komaki
+Toshio Nakazawa
+Masashi Honda
+Kazuya Takahara
+Saburo Takahara
+Koki Nakamura
+Kengo Matsumoto
+Akihiro Sakakura
+Masaaki Sagane
+Yasuharu Nasu
+Takashi Haraguchi
+Nozomu Tawa
+Gohe Akita
+Yoshika Koroki
+Ryuichi Tawa
+Keisuke Kiyotake
+Toshinobu Sagane
+Yoshikatsu Shiokawa
+Shuto Sekiguchi
+Yusuke Kobayashi
+Kunihiro Yokoyama
+Riki Ono
+Shintaro Kawamoto
+Ricardo Kogure
+Kengo Kanayama
+Hitoshi Nanami
+Hiroki Futagawa
+Keisuke Ukon
+Takuji Shimomura
+Hirokazu Kushibiki
+Koji Tanaka
+Teruo Kato
+Toshinori Ganaha
+Yasuhiro Nozu
+Naotake Takahashi
+Shunsuke Sato
+Shoji Suzumura
+Kengo Tatsuhara
+Ryota Sorimachi
+Takahiro Fuji
+Shigeaki Maeda
+Kazuki Hirano
+Shoji Yajima
+Hidetoshi Morioka
+Eisuke Sugimoto
+Hideo Hirayama
+Ken Yato
+Yohei Hosogai
+Naoya Nakamura
+Yuichi Morioka
+Kunio Nakamura
+Masataka Iwamasa
+Ryota Matsuda
+Shiro Sasaki
+Kazuhiro Yamaguchi
+Eiji Harakawa
+Naoto Nomura
+Masato Horiike
+Kensuke Ugajin
+Yoshinori Toyoda
+Masaaki Kushibiki
+Masashi Endo
+Kenji Nagai
+Yasutoshi Kushibiki
+Túlio Nakanishi
+Yuhei Ogawa
+Shinji Kogure
+Yasuhiko Takagi
+Kazumichi Kobayashi
+Go Uchino
+Noriaki Makino
+Daisuke Muto
+Yojiro Moriwaki
+Takumi Misao
+Yusuke Kobayashi
+Daniel Okano
+Rihei Sato
+Tadaomi Hasebe
+Yuhei Takamatsu
+Makoto Suzuki
+Kiyoshi Morioka
+Rihei Matsubara
+Maya Osako
+Toshinori Kawaguchi
+Hisao Kamamoto
+Seiichi Natsuka
+Takashi Kanzaki
+Naoya Matsumaru
+Toshinori Hato
+Ryozo Kondo
+Hiromitsu Suzuki
+Nobuhiro Kawashima
+Tetsuya Matsumoto
+Kazuhiko Inui
