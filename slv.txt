@@ -1,5 +1,9 @@
 ﻿NAMES*SURNAMES
-#U20-13(EUA)
-Oscar*Sorto
-#U17-09(USA)
-Eriq*Zavaleta
+#EL_SALVADOR
+#NEW
+#CLASSIC
+#OLYM
+#BEACH
+#FUTSAL
+#U20
+#U17
